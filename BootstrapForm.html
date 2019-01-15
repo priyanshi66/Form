@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOTSTRAP</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="js/jquery.js"></script>
+	<script type="js/bootstrap.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<h1 class="col-md-offset-1">Horizontal Form</h1><br>
+	<form class="form-horizontal">
+		<div class="form-group has-success has-feedback">
+			<label class="col-md-2 control-label">Username</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control"class="form-control input-lg">
+				<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+			</div>
+		</div>
+
+		<div class="form-group has-error has-feedback">
+			<label class="col-md-2 control-label">Email</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control input-md">
+				<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+			</div>
+		</div>
+
+		<div class="form-group has-warning has-feedback">
+			<label class="col-md-2 control-label">Password</label>
+			<div class="col-md-10">
+				<input type="Password" class="form-control input-sm">
+				<span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label class="col-md-offset-1 col-md-2">Skills</label><br>	
+			<div class="row">		
+			<div class="checkbox col-md-offset-2">
+				<label><input type="checkbox" name="">HTML</label>
+			</div>
+			<div class="checkbox col-md-offset-2">
+				<label><input type="checkbox" name="">CSS</label>
+			</div>
+			<div class="checkbox col-md-offset-2">
+				<label><input type="checkbox" name="">JavaScript</label>
+			</div>
+			<div class="checkbox col-md-offset-2">
+				<label><input type="checkbox" name="">PHP</label>
+			</div>
+			</div>
+		</div>
+
+		<div>
+			<label class="col-md-offset-1 col-md-2">Gender</label>
+			<div class="row">
+				<div class="radio col-md-2">
+					<label><input type="radio" name="gender" value="Male">Male</label>
+				</div>
+
+		        <div class="radio col-md-2">
+					<label><input type="radio" name="gender" value="Female">Female</label><br><br>
+				</div>
+			</div>
+		</div>
+				
+		
+
+		<div class="form-group">
+			<label class="col-md-2 col-md-offset-1">Select your Country</label>
+			<div class="col-md-8">
+				<select multiple>
+					<option>India</option>
+					<option>Canada</option>
+					<option>Russia</option>
+					<option>Iran</option>
+					<option>Korea</option>
+				</select>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">Comments</label>
+			<div class="col-md-10">
+				<textarea class="form-control"></textarea>
+			</div>
+		</div>	
+		<button class="col-md-offset-1 btn btn-danger">Submit</button>
+				
+	</form>
+	</div>
+	
+
+</body>
+</html>
